@@ -1,0 +1,192 @@
+
+*{
+    font-family: monospace,Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color:grey;
+    cursor: url(./TRIDENTSLOGO.png) 25 15, auto
+}
+*:active{
+    cursor: url(./copyclick.png) 25 15, auto
+}
+img{
+    /* float: left; */
+}
+body{
+    background-color: rgb(29, 29, 29);
+    animation-name: colors;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    position:relative;
+    
+}
+
+
+
+/* yea boi this is the greatest css of all time */
+
+#asia{
+
+}
+
+#africa{
+    color: #202020;
+   
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+    left: 21px;
+    top: 340px;
+}
+
+#america{
+    color:grey;
+    font-size:30px;
+    font-style: italic;
+    left:0;
+    top: 0%;
+    width: 1000px;
+}
+h1{
+   
+    position: fixed;
+    top: -14px;
+    left: 133px;
+}
+#logo{
+    float: left;
+}
+
+.tridents {
+    position: fixed;
+    top: -0;
+    height: 300px;
+}
+
+
+#start:active{
+
+    color:darkgray;
+
+
+
+
+}
+#facesmall{
+    height:300px;
+    width:300px;
+    position:fixed;
+    left:0px;
+    top:0px;
+    opacity: 0;
+}
+#voice{
+    font-family: myFirstFont;
+    src: url('assets/Ancient Modern Tales.woff');
+    font-weight: bold;
+    display: fixed;
+    left:100px;
+    top:400px;
+    
+  }
+#start{
+
+    animation-name: colorsstart;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    
+    font-family: fantasy;
+    top:173px;
+    left: 156px;
+    position: fixed;
+    z-index: 10;
+}
+
+
+
+
+.letter {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    padding: 2px;
+    float: left;
+    margin: 2px;
+  }
+
+  .letter-button-color {
+    color: darkcyan;
+  }
+
+  .fridge-color {
+    color: orange;
+  }
+
+  #display {
+    margin-top: 78px;
+    height: 500px;
+    width: 220px;
+    margin-left: 60px;
+  }
+
+  #buttons {
+    padding-top: 60px;
+  }
+
+  #clear {
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+    border-style: solid;
+    width: 100px;
+  }
+
+
+
+
+#face{
+    animation-duration: 70s;
+    position:relative;
+    animation-iteration-count:infinite;
+    animation-name: faceSwap;
+    top:80px;
+}
+#text{
+    color:rgb(126, 126, 126);
+    font-size:20px;
+    position: fixed;
+    top: 600px;
+}
+
+
+/* @keyframes faceSwap {
+    16% {content:url("angel.png");}
+    32% {content:url("spiritFace.png");} 
+    40% {content:url("faRight.png");}
+    50% {content:url("gasp.png");}
+    66% {content:url("wowFace.png");}
+    80% {content:url("smileDemen.png");}
+    100% {content:url("devilhorns.png");}
+} */
+
+
+@keyframes colors {
+    0% {background-color: rgb(161, 161, 161 ,0.5);
+        }
+
+    50% {background-color: rgb(29, 29, 29 ,0.5);
+       }
+
+    100% {background-color: rgb(161, 161, 161 ,0.5);
+        }
+  }
+
+  /* @keyframes colorsstart {
+    0% {
+        color:rgb(0, 0, 0);}
+
+    40% {
+       color: rgb(161, 161, 161);}
+
+    60% {
+        color: rgb(0, 0, 0);}
+  } */

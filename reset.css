@@ -1,0 +1,461 @@
+
+
+
+
+@-webkit-keyframes arrow_anim {
+    from { margin-top: 58px; }
+      to { margin-top: 67px; }
+ }
+ 
+ @-moz-keyframes arrow_anim {
+    from { margin-top: 58px; }
+      to { margin-top: 67px; }
+ }
+ 
+ @-ms-keyframes arrow_anim {
+    from { margin-top: 58px; }
+      to { margin-top: 67px; }
+ }
+ 
+ @-o-keyframes arrow_anim {
+    from { margin-top: 58px; }
+      to { margin-top: 67px; }
+ }
+ 
+ @keyframes arrow_anim {
+    from { margin-top: 58px; }
+      to { margin-top: 67px; }
+ }
+ 
+ #arrow {
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-top: 10px solid red;
+   height: 0; 
+   margin: 60px 0px 0px 360px;
+   position: absolute;
+   width: 0; 
+   
+   -webkit-animation: arrow_anim .3s steps(3) infinite;
+   -moz-animation: arrow_anim .3s steps(3) infinite;
+   -ms-animation: arrow_anim .3s steps(3) infinite;
+   -o-animation: arrow_anim .3s steps(3) infinite;
+   animation: arrow_anim .3s steps(3) infinite;
+ }
+ 
+ #dialog {
+   height: 70px;
+   background: #1c1c1c;
+   border-radius: 5px;
+   box-shadow: 0 0 0 6px #F5EAC8, 0 0 0 12px #251C00;
+   color: #F5EAC8;
+   font-family: Arial;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 20px 20px 20px 20px;
+   position: relative;
+   text-transform: uppercase;
+   word-spacing: 3px;
+   width: 400px;
+   top:-180px;
+ }
+
+/* above is text box */
+*{
+    font-family: monospace,Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color:grey;
+    cursor: url(./TRIDENTSLOGO.png) 25 15, auto
+    
+}
+
+canvas,
+canvas-overlay {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+canvas-overlay {
+    background-color: black;
+    opacity: 1;
+    will-change: opacity;
+    transition: 2s opacity;
+    z-index: 1;
+}
+
+canvas {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+*:active{
+    cursor: url(./copyclick.png) 25 15, auto
+}
+ img {
+    /* float: left; */
+}
+body{
+    background: url('https://github.kdex.de/earthbound-battle-backgrounds/?313/168');
+    /* background-color: rgb(29, 29, 29); */
+    animation-name: colors;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    position:relative;
+    
+}
+/* @keyframes colors {
+    0% {background-color: rgb(161, 161, 161 ,0.5);
+        }
+
+    50% {background-color: rgb(29, 29, 29 ,0.5);
+       }
+
+    100% {background-color: rgb(161, 161, 161 ,0.5);
+        }
+  } */
+
+
+/* yea boi this is the greatest css of all time */
+
+#asia{
+
+}
+
+#africa{
+    color: #202020;
+   
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+    left: 21px;
+    top: 340px;
+    width:100%;
+}
+
+#america{
+    color:grey;
+    font-size:30px;
+    font-style: italic;
+    left:0;
+    top: 0%;
+    width: 1000px;
+    z-index: 20;
+}
+h1{
+   
+    position: fixed;
+    top: -14px;
+    left: 133px;
+}
+#logo{
+    float: left;
+}
+
+.tridents {
+    position: fixed;
+    top: -0;
+    height: 300px;
+}
+
+
+#start:active{
+
+    color:darkgray;
+
+
+
+
+}
+#facesmall{
+    height:300px;
+    width:300px;
+    position:fixed;
+    left:0px;
+    top:0px;
+    opacity: 0;
+   
+
+}
+
+#voice{
+    font-family: myFirstFont;
+    src: url('assets/Ancient Modern Tales.woff');
+    font-weight: bold;
+    display: fixed;
+    left:100px;
+    top:400px;
+    
+  }
+#start{
+
+    animation-name: colorsstart;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    
+    font-family: fantasy;
+    top:173px;
+    left: 156px;
+    position: fixed;
+    z-index: 10;
+}
+
+
+
+
+.letter {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    padding: 2px;
+    float: left;
+    margin: 2px;
+  }
+
+  .letter-button-color {
+    color: darkcyan;
+  }
+
+  .fridge-color {
+    color: orange;
+  }
+
+  #display {
+    margin-top: 78px;
+    height: 500px;
+    width: 220px;
+    margin-left: 60px;
+  }
+
+  #buttons {
+    padding-top: 60px;
+  }
+
+  #clear {
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+    border-style: solid;
+    width: 100px;
+  }
+#wins{
+    position:relative;
+}
+
+.wins{
+    position:relative;
+   
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-name: brainSwap;
+    text-align: justify;
+    font-family: fantasy;
+}
+
+#face{
+    
+    position:relative;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+   /* animation-name: brainSwap; */
+    top:80px;
+}
+#text{
+    color:rgb(126, 126, 126);
+    font-size:20px;
+    position: fixed;
+    top: 600px;
+}
+.smirkSpeak{
+    animation-name: smirkSwap;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+
+}
+#enter{
+    opacity: 0;
+}
+@keyframes slide {
+    from { left: 100%;}
+    to { left: -100%;}
+  }
+  @-webkit-keyframes slide {
+    from { left: 100%;}
+    to { left: -100%;}
+  }
+  
+  #donaldID{
+    position: fixed;
+    top: 420px;
+    z-index: 11;
+    left:256px;
+}
+  #morpheusID{
+      position: fixed;
+      top: 420px;
+      z-index: 11;
+  }
+  #einID{
+    position: fixed;
+    top: 420px;
+    left:128px;
+    z-index: 11;
+}
+
+/* players */
+/* .morpheus{
+    content:url("./assets/morphIconhover.png")
+}
+.einstein{
+    content:url("./assets/morphIconhover.png")
+}
+.donald{
+    content:url("./assets/morphIconhover.png")
+}
+.face{
+    content:url("./assets/morphIconhover.png")
+} */
+
+
+
+
+/* character selection */
+  #morpheusID.hero:hover{
+    content:url("./assets/morphIconhover.png")
+}
+#morpheusID.hero:active{
+    content:url("./assets/morphIconclick.png")
+}
+.morpheusFace{
+    content:url("./assets/morpheusFace.png")
+}
+#einID.hero:hover{
+    content:url("./assets/einIconhover.png")
+}
+#einID.hero:active{
+    content:url("./assets/einIconclick.png")
+}
+.einsteinFace{
+    content:url("./assets/einsteinFace.png")
+}
+#donaldID.hero:hover{
+    content:url("./assets/donaldhover.png")
+}
+#donaldID.hero:active{
+    content:url("./assets/donaldclick.png")
+}
+.mrface.hero:hover{
+    content:url("./assets/mrFacehover.png")
+}
+.mrface.hero:active{
+    content:url("./assets/mrFaceactive.png")
+}
+
+  #marquee { 
+     
+    
+    width:100%;
+    height:120px;
+    line-height:120px;
+    overflow:hidden;
+    position:relative;
+    color: #d6d6d6;
+  }
+  
+  #text {
+    color: aliceblue;
+    font-family:Impact;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:120px;
+    font-size:30px;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: slide;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+@keyframes brainSwap {
+    /* 0% {content:url("./assets/brain.png");} */
+    
+    33% {content:url("./assets/brain2.png");} 
+    
+    66% {content:url("./assets/brain.png");}
+
+    100% {content:url("./assets/brain2.png");}
+    
+}
+
+@keyframes smirkSwap {
+    /* 0% {content:url("./assets/brain.png");} */
+    
+   25%{content:url("./assets/smirk2.png");}
+   75%{content:url("./assets/smirk3.png");}
+   99%{content:url("./assets/smirk.png");}
+    
+}
+
+
+.shaker{
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(1px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-2px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(2px, 0, 0);
+    }
+  }
+/* @keyframes faceSwap {
+    10% {content:url("./assets/epilepsyFace/1.png");}
+    20% {content:url("./assets/epilepsyFace/2.png");} 
+    30% {content:url("./assets/epilepsyFace/3.png");}
+    40% {content:url("./assets/epilepsyFace/4.png");}
+    50% {content:url("./assets/epilepsyFace/5.png");}
+    60% {content:url("./assets/epilepsyFace/6.png");}
+    70% {content:url("./assets/epilepsyFace/7.png");}
+    80% {content:url("./assets/epilepsyFace/8.png");}
+    90% {content:url("./assets/epilepsyFace/9.png");}
+} */
+
+
+
+
+  /* @keyframes colorsstart {
+    0% {
+        color:rgb(0, 0, 0);}
+
+    40% {
+       color: rgb(161, 161, 161);}
+
+    60% {
+        color: rgb(0, 0, 0);}
+  } */
